@@ -1,0 +1,40 @@
+body{
+    text-align:center;
+    font-size:1.25em;
+}
+h1{}
+.bottom_line{
+    border-bottom: 5px ridge black;
+
+}
+li {
+    float: left;
+    padding-left: 100px;
+    padding-right: 15px;
+    font-size:20-px;
+}
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    border-radius:25px;
+    overflow: hidden;
+    background-color: aqua;
+    display: table;
+    display: flex;
+    justify-content: center;
+    overflow:auto;
+    padding-right:100px;
+}
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: #0048ff; /* Change this to your desired background color */
+}
+p{
+    color:white;
+}
